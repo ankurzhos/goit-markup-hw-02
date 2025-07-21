@@ -77,7 +77,7 @@ address {
   background-color: #404bbf;
 }
 
-.benefits-title {
+h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -85,14 +85,16 @@ address {
   color: #2e2f42;
 }
 
-.benefits-text {
-  font-weight: 400;
+.benefits-text,
+.portfolio-text,
+.team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
-.team-section-title {
+
+.team-section-title,
+.portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -103,11 +105,15 @@ address {
   background-color: #f4f4fd;
 }
 .team-item {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
   background-color: #fff;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
